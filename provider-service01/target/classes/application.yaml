@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://43.154.228.185:3306/test_seata
+    username: root
+    password: ttttisY/i65y
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
